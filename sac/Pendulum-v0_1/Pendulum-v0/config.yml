@@ -1,0 +1,15 @@
+!!python/object/apply:collections.OrderedDict
+- - - gradient_steps
+    - -1
+  - - learning_rate
+    - 0.001
+  - - n_episodes_rollout
+    - 1
+  - - n_timesteps
+    - 20000
+  - - policy
+    - MlpPolicy
+  - - policy_kwargs
+    - dict(log_std_init=-2, net_arch=[64, 64])
+  - - use_sde
+    - true
