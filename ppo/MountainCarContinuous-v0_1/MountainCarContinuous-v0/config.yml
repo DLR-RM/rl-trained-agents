@@ -1,0 +1,33 @@
+!!python/object/apply:collections.OrderedDict
+- - - batch_size
+    - 256
+  - - clip_range
+    - 0.1
+  - - ent_coef
+    - 0.00429
+  - - gae_lambda
+    - 0.9
+  - - gamma
+    - 0.9999
+  - - learning_rate
+    - 7.77e-05
+  - - max_grad_norm
+    - 5
+  - - n_envs
+    - 1
+  - - n_epochs
+    - 10
+  - - n_steps
+    - 8
+  - - n_timesteps
+    - 20000.0
+  - - normalize
+    - true
+  - - policy
+    - MlpPolicy
+  - - policy_kwargs
+    - dict(log_std_init=-3.29, ortho_init=False)
+  - - use_sde
+    - true
+  - - vf_coef
+    - 0.19

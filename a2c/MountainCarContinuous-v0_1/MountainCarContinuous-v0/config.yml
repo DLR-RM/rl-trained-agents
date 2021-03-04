@@ -1,0 +1,19 @@
+!!python/object/apply:collections.OrderedDict
+- - - ent_coef
+    - 0.0
+  - - n_envs
+    - 4
+  - - n_steps
+    - 100
+  - - n_timesteps
+    - 100000.0
+  - - normalize
+    - true
+  - - policy
+    - MlpPolicy
+  - - policy_kwargs
+    - dict(log_std_init=0.0, ortho_init=False)
+  - - sde_sample_freq
+    - 16
+  - - use_sde
+    - true

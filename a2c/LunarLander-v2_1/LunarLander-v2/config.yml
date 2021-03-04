@@ -1,0 +1,15 @@
+!!python/object/apply:collections.OrderedDict
+- - - ent_coef
+    - 1.0e-05
+  - - gamma
+    - 0.995
+  - - learning_rate
+    - lin_0.00083
+  - - n_envs
+    - 8
+  - - n_steps
+    - 5
+  - - n_timesteps
+    - 200000.0
+  - - policy
+    - MlpPolicy

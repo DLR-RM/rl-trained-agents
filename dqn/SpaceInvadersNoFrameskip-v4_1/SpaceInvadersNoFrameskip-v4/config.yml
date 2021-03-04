@@ -1,0 +1,29 @@
+!!python/object/apply:collections.OrderedDict
+- - - batch_size
+    - 32
+  - - buffer_size
+    - 10000
+  - - env_wrapper
+    - - stable_baselines3.common.atari_wrappers.AtariWrapper
+  - - exploration_final_eps
+    - 0.01
+  - - exploration_fraction
+    - 0.1
+  - - frame_stack
+    - 4
+  - - gradient_steps
+    - 1
+  - - learning_rate
+    - 0.0001
+  - - learning_starts
+    - 100000
+  - - n_timesteps
+    - 10000000.0
+  - - optimize_memory_usage
+    - true
+  - - policy
+    - CnnPolicy
+  - - target_update_interval
+    - 1000
+  - - train_freq
+    - 4
