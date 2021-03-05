@@ -1,0 +1,25 @@
+!!python/object/apply:collections.OrderedDict
+- - - batch_size
+    - 256
+  - - clip_range
+    - lin_0.1
+  - - ent_coef
+    - 0.01
+  - - env_wrapper
+    - - stable_baselines3.common.atari_wrappers.AtariWrapper
+  - - frame_stack
+    - 4
+  - - learning_rate
+    - lin_2.5e-4
+  - - n_envs
+    - 8
+  - - n_epochs
+    - 4
+  - - n_steps
+    - 128
+  - - n_timesteps
+    - 10000000.0
+  - - policy
+    - CnnPolicy
+  - - vf_coef
+    - 0.5
