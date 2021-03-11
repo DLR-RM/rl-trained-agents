@@ -1,0 +1,13 @@
+!!python/object/apply:collections.OrderedDict
+- - - env_wrapper
+    - - stable_baselines3.common.atari_wrappers.AtariWrapper
+  - - exploration_fraction
+    - 0.025
+  - - frame_stack
+    - 4
+  - - n_timesteps
+    - 10000000.0
+  - - optimize_memory_usage
+    - true
+  - - policy
+    - CnnPolicy
