@@ -1,0 +1,19 @@
+!!python/object/apply:collections.OrderedDict
+- - - batch_size
+    - 64
+  - - ent_coef
+    - 0.01
+  - - gae_lambda
+    - 0.98
+  - - gamma
+    - 0.999
+  - - n_envs
+    - 16
+  - - n_epochs
+    - 4
+  - - n_steps
+    - 1024
+  - - n_timesteps
+    - 1000000.0
+  - - policy
+    - MlpPolicy

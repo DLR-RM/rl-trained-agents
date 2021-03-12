@@ -1,0 +1,27 @@
+!!python/object/apply:collections.OrderedDict
+- - - batch_size
+    - 1024
+  - - buffer_size
+    - 1000000
+  - - gamma
+    - 0.95
+  - - goal_selection_strategy
+    - future
+  - - learning_rate
+    - 0.001
+  - - max_episode_length
+    - 100
+  - - model_class
+    - tqc
+  - - n_sampled_goal
+    - 4
+  - - n_timesteps
+    - 200000.0
+  - - online_sampling
+    - true
+  - - policy
+    - MlpPolicy
+  - - policy_kwargs
+    - dict(n_critics=2, net_arch=[512, 512, 512])
+  - - tau
+    - 0.05
