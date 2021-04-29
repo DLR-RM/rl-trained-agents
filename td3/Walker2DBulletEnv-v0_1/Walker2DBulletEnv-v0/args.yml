@@ -14,7 +14,7 @@
   - - hyperparams
     - null
   - - log_folder
-    - rl-trained-agents/
+    - logs
   - - log_interval
     - -1
   - - n_evaluations
@@ -36,11 +36,11 @@
   - - sampler
     - tpe
   - - save_freq
-    - -1
+    - 100000
   - - save_replay_buffer
     - false
   - - seed
-    - 1571813624
+    - 3495187209
   - - storage
     - null
   - - study_name
@@ -52,7 +52,7 @@
   - - truncate_last_trajectory
     - true
   - - uuid
-    - true
+    - false
   - - vec_env
     - dummy
   - - verbose
