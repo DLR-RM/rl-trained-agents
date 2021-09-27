@@ -6,7 +6,7 @@
   - - env_kwargs
     - null
   - - eval_episodes
-    - 10
+    - 20
   - - eval_freq
     - 10000
   - - gym_packages
@@ -14,9 +14,11 @@
   - - hyperparams
     - null
   - - log_folder
-    - rl-trained-agents/
+    - logs
   - - log_interval
     - -1
+  - - n_eval_envs
+    - 10
   - - n_evaluations
     - 20
   - - n_jobs
@@ -27,8 +29,12 @@
     - -1
   - - n_trials
     - 10
+  - - no_optim_plots
+    - false
   - - num_threads
-    - -1
+    - 2
+  - - optimization_log_path
+    - null
   - - optimize_hyperparameters
     - false
   - - pruner
@@ -40,7 +46,7 @@
   - - save_replay_buffer
     - false
   - - seed
-    - 1782471513
+    - 620965731
   - - storage
     - null
   - - study_name
@@ -52,7 +58,7 @@
   - - truncate_last_trajectory
     - true
   - - uuid
-    - true
+    - false
   - - vec_env
     - dummy
   - - verbose
