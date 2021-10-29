@@ -1,0 +1,11 @@
+!!python/object/apply:collections.OrderedDict
+- - - gamma
+    - 0.9999
+  - - learning_starts
+    - 10000
+  - - n_timesteps
+    - 1000000.0
+  - - policy
+    - MlpPolicy
+  - - use_sde
+    - false
