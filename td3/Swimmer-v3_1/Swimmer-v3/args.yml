@@ -6,19 +6,20 @@
   - - env_kwargs
     - null
   - - eval_episodes
-    - 20
+    - 5
   - - eval_freq
     - 25000
   - - gym_packages
     - []
   - - hyperparams
-    - null
+    - gradient_steps: 1
+      train_freq: 1
   - - log_folder
-    - logs/hyperparam_sac/
+    - logs
   - - log_interval
     - 10
   - - n_eval_envs
-    - 5
+    - 1
   - - n_evaluations
     - 20
   - - n_jobs
@@ -46,7 +47,7 @@
   - - save_replay_buffer
     - false
   - - seed
-    - 594371
+    - 3865637836
   - - storage
     - null
   - - study_name
@@ -58,7 +59,7 @@
   - - truncate_last_trajectory
     - true
   - - uuid
-    - true
+    - false
   - - vec_env
     - dummy
   - - verbose
