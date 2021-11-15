@@ -8,13 +8,13 @@
   - - eval_episodes
     - 20
   - - eval_freq
-    - 10000
+    - 25000
   - - gym_packages
     - []
   - - hyperparams
     - null
   - - log_folder
-    - logs/
+    - logs/hyperparam_sac/
   - - log_interval
     - 10
   - - n_eval_envs
