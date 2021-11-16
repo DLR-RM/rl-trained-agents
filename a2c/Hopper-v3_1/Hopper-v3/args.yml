@@ -1,8 +1,8 @@
 !!python/object/apply:collections.OrderedDict
 - - - algo
-    - ppo
+    - a2c
   - - env
-    - HalfCheetah-v3
+    - Hopper-v3
   - - env_kwargs
     - null
   - - eval_episodes
@@ -14,9 +14,9 @@
   - - hyperparams
     - null
   - - log_folder
-    - logs/
+    - logs
   - - log_interval
-    - 10
+    - 2000
   - - n_eval_envs
     - 5
   - - n_evaluations
@@ -46,7 +46,7 @@
   - - save_replay_buffer
     - false
   - - seed
-    - 594371
+    - 4166808696
   - - storage
     - null
   - - study_name
@@ -58,7 +58,7 @@
   - - truncate_last_trajectory
     - true
   - - uuid
-    - true
+    - false
   - - vec_env
     - dummy
   - - verbose

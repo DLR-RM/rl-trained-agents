@@ -8,7 +8,7 @@
   - - eval_episodes
     - 20
   - - eval_freq
-    - 10000
+    - 25000
   - - gym_packages
     - []
   - - hyperparams
