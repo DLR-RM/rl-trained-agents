@@ -8,13 +8,13 @@
   - - eval_episodes
     - 20
   - - eval_freq
-    - 10000
+    - 25000
   - - gym_packages
     - []
   - - hyperparams
     - null
   - - log_folder
-    - logs/
+    - logs
   - - log_interval
     - 10
   - - n_eval_envs
@@ -46,7 +46,7 @@
   - - save_replay_buffer
     - false
   - - seed
-    - 594371
+    - 1751580366
   - - storage
     - null
   - - study_name
@@ -58,7 +58,7 @@
   - - truncate_last_trajectory
     - true
   - - uuid
-    - true
+    - false
   - - vec_env
     - dummy
   - - verbose
