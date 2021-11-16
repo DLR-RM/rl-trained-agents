@@ -1,0 +1,11 @@
+!!python/object/apply:collections.OrderedDict
+- - - learning_starts
+    - 10000
+  - - n_timesteps
+    - 1000000.0
+  - - policy
+    - MlpPolicy
+  - - top_quantiles_to_drop_per_net
+    - 5
+  - - use_sde
+    - false

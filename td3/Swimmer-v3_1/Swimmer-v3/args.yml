@@ -1,0 +1,66 @@
+!!python/object/apply:collections.OrderedDict
+- - - algo
+    - td3
+  - - env
+    - Swimmer-v3
+  - - env_kwargs
+    - null
+  - - eval_episodes
+    - 5
+  - - eval_freq
+    - 25000
+  - - gym_packages
+    - []
+  - - hyperparams
+    - gradient_steps: 1
+      train_freq: 1
+  - - log_folder
+    - logs
+  - - log_interval
+    - 10
+  - - n_eval_envs
+    - 1
+  - - n_evaluations
+    - 20
+  - - n_jobs
+    - 1
+  - - n_startup_trials
+    - 10
+  - - n_timesteps
+    - -1
+  - - n_trials
+    - 10
+  - - no_optim_plots
+    - false
+  - - num_threads
+    - 2
+  - - optimization_log_path
+    - null
+  - - optimize_hyperparameters
+    - false
+  - - pruner
+    - median
+  - - sampler
+    - tpe
+  - - save_freq
+    - -1
+  - - save_replay_buffer
+    - false
+  - - seed
+    - 3865637836
+  - - storage
+    - null
+  - - study_name
+    - null
+  - - tensorboard_log
+    - ''
+  - - trained_agent
+    - ''
+  - - truncate_last_trajectory
+    - true
+  - - uuid
+    - false
+  - - vec_env
+    - dummy
+  - - verbose
+    - 1
