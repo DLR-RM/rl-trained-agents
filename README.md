@@ -9,8 +9,8 @@ Pre-trained Reinforcement Learning agents using the [rl-baselines3-zoo](https://
 
 To cite this repository in publications:
 
-```
-@misc{rl-baselines3-zoo,
+```bibtex
+@misc{rl-zoo3,
   author = {Raffin, Antonin},
   title = {RL Baselines3 Zoo},
   year = {2020},
