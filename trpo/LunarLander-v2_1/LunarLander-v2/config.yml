@@ -1,0 +1,19 @@
+!!python/object/apply:collections.OrderedDict
+- - - cg_damping
+    - 0.01
+  - - gae_lambda
+    - 0.98
+  - - gamma
+    - 0.99
+  - - learning_rate
+    - 0.001
+  - - n_critic_updates
+    - 15
+  - - n_envs
+    - 2
+  - - n_steps
+    - 512
+  - - n_timesteps
+    - 200000.0
+  - - policy
+    - MlpPolicy

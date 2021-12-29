@@ -1,0 +1,13 @@
+!!python/object/apply:collections.OrderedDict
+- - - n_envs
+    - 2
+  - - n_timesteps
+    - 50000
+  - - normalize
+    - true
+  - - policy
+    - MlpPolicy
+  - - sde_sample_freq
+    - 4
+  - - use_sde
+    - true
