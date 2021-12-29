@@ -1,0 +1,30 @@
+!!python/object/apply:collections.OrderedDict
+- - - batch_size
+    - 128
+  - - cg_damping
+    - 0.1
+  - - cg_max_steps
+    - 25
+  - - gae_lambda
+    - 0.95
+  - - gamma
+    - 0.99
+  - - learning_rate
+    - 0.001
+  - - n_critic_updates
+    - 20
+  - - n_envs
+    - 2
+  - - n_steps
+    - 1024
+  - - n_timesteps
+    - 300000.0
+  - - normalize
+    - true
+  - - policy
+    - MlpPolicy
+  - - policy_kwargs
+    - dict(log_std_init=-1, ortho_init=False, activation_fn=nn.ReLU, net_arch=[dict(pi=[256,
+      256], vf=[256, 256])] )
+  - - sub_sampling_factor
+    - 1
