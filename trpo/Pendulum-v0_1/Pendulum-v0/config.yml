@@ -1,0 +1,17 @@
+!!python/object/apply:collections.OrderedDict
+- - - gamma
+    - 0.9
+  - - n_critic_updates
+    - 15
+  - - n_envs
+    - 2
+  - - n_steps
+    - 1024
+  - - n_timesteps
+    - 100000.0
+  - - policy
+    - MlpPolicy
+  - - sde_sample_freq
+    - 4
+  - - use_sde
+    - true
