@@ -1,0 +1,17 @@
+!!python/object/apply:collections.OrderedDict
+- - - alive_bonus_offset
+    - 0
+  - - delta_std
+    - 0.01
+  - - learning_rate
+    - 0.02
+  - - n_delta
+    - 1
+  - - n_envs
+    - 2
+  - - n_timesteps
+    - 2000000.0
+  - - n_top
+    - 1
+  - - policy
+    - LinearPolicy

@@ -1,0 +1,9 @@
+!!python/object/apply:collections.OrderedDict
+- - - n_delta
+    - 2
+  - - n_envs
+    - 1
+  - - n_timesteps
+    - 50000.0
+  - - policy
+    - LinearPolicy
