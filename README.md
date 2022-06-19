@@ -1,5 +1,7 @@
 # Collection of Pre-Trained Reinforcement Learning Agents using Stable-Baselines3
 
+**Note: Pretrained-agents are now available on the Huggingface hub: https://huggingface.co/sb3**
+
 Pre-trained Reinforcement Learning agents using the [rl-baselines3-zoo](https://github.com/DLR-RM/rl-baselines3-zoo) and [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3).
 
 **This repository contains only the trained policies, please look at the zoo for the training scripts.**
