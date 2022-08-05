@@ -1,0 +1,73 @@
+!!python/object/apply:collections.OrderedDict
+- - - algo
+    - a2c
+  - - device
+    - auto
+  - - env
+    - Ant-v3
+  - - env_kwargs
+    - null
+  - - eval_episodes
+    - 5
+  - - eval_freq
+    - 25000
+  - - gym_packages
+    - []
+  - - hyperparams
+    - null
+  - - log_folder
+    - logs
+  - - log_interval
+    - -1
+  - - n_eval_envs
+    - 1
+  - - n_evaluations
+    - null
+  - - n_jobs
+    - 1
+  - - n_startup_trials
+    - 10
+  - - n_timesteps
+    - -1
+  - - n_trials
+    - 500
+  - - no_optim_plots
+    - false
+  - - num_threads
+    - -1
+  - - optimization_log_path
+    - null
+  - - optimize_hyperparameters
+    - false
+  - - pruner
+    - median
+  - - sampler
+    - tpe
+  - - save_freq
+    - -1
+  - - save_replay_buffer
+    - false
+  - - seed
+    - 3109947629
+  - - storage
+    - null
+  - - study_name
+    - null
+  - - tensorboard_log
+    - ''
+  - - track
+    - false
+  - - trained_agent
+    - ''
+  - - truncate_last_trajectory
+    - true
+  - - uuid
+    - false
+  - - vec_env
+    - dummy
+  - - verbose
+    - 1
+  - - wandb_entity
+    - null
+  - - wandb_project_name
+    - sb3
