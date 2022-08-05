@@ -2,7 +2,7 @@
 - - - algo
     - ddpg
   - - env
-    - Pendulum-v0
+    - Pendulum-v1
   - - env_kwargs
     - null
   - - eval_episodes
